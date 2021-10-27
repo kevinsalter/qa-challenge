@@ -16,7 +16,9 @@ export default function App() {
   return (
     <div className="page-wrap">
       <div className="card m-3">
-        <h5 className="card-header">Sign Me Up!</h5>
+        <h5 className="card-header" data-testid="title">
+          Sign Me Up!
+        </h5>
         <div className="card-body">
           <form onSubmit={handleSubmit(onSubmit)}>
             <div className="form-row">
