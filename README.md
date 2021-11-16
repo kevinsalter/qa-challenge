@@ -2,6 +2,8 @@
 
 Clone this repository and run `npm install` to install the project's dependencies.
 
+For the best experience, please ensure that you're using the version of Node.js listed in the [`.nvmrc`](.nvmrc) file. If you have [`nvm`](https://github.com/nvm-sh/nvm) installed, you can simply run `nvm use` to activate the version in `.nvmrc`.
+
 ### `npm start`
 
 Runs the app in the development mode.\
